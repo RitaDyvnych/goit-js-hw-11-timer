@@ -11,9 +11,10 @@ class CountdownTimer {
 
         this.init();
     }
-
+        
     init() {
         this.id = setInterval(this.calcTime.bind(this), 1000);
+        
     }
 
     calcTime() {
@@ -43,7 +44,7 @@ class CountdownTimer {
         return String(number).padStart(2, "0")
     }
 
-    
+ 
 }
 
 const timer = new CountdownTimer ({
