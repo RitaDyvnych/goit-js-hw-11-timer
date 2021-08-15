@@ -24,7 +24,6 @@ body {
   color: #212121;
 
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -36,4 +35,9 @@ body {
   padding: 100px 0 0 0;
   margin: 30px 15px 0 0;
   box-shadow: 5px 6px 9px 1px rgb(53 53 53 / 50%);
+}
+
+div.wrapper {
+  width: calc(4 * 225px);
+  margin: 0 auto;
 }
